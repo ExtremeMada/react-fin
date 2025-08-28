@@ -23,8 +23,8 @@ jobs:
 
       - name: Build Vite project
         run: |
-          echo "REACT_CLIENT_ID=${{ secrets.CLIENT_ID }}" >> .env
-          echo "REACT_SHEET_ID=${{ secrets.SHEET_ID }}" >> .env
+          echo "VITE_CLIENT_ID=${{ secrets.CLIENT_ID }}" >> .env
+          echo "VITE_SHEET_ID=${{ secrets.SHEET_ID }}" >> .env
           npm run build
 
       - name: Deploy to GitHub Pages

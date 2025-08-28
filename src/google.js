@@ -1,7 +1,7 @@
 import { gapi } from "gapi-script";
 
-const CLIENT_ID = process.env.REACT_CLIENT_ID;
-const SHEET_ID = process.env.REACT_SHEET_ID;
+const CLIENT_ID =import.meta.env.VITE_CLIENT_ID;
+const SHEET_ID = import.meta.env.VITE_SHEET_ID;
 const SCOPES = "https://www.googleapis.com/auth/spreadsheets.readonly";
 
 // // Fetch Google Sheets values
