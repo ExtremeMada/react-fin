@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchOverview } from "../viewmodels/overviewVM";
-import "../style/Overview.css"; // Assuming you have a CSS file for styling
+import "../style/overview.css"; // Assuming you have a CSS file for styling
 import {
   FaArrowDown,
   FaArrowUp,
